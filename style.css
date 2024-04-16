@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+
+.container{
+    padding: 25px;
+    height: 450px;
+    width: 250px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 7px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.image img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+/* Section-Intro */
+
+.intro{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name, .location, .profession{
+    margin: 0;
+    padding: 0;
+}
+
+.name{
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.location{
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.profession{
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    font-size: 11.5px;
+    margin-top: 20px;
+}
+
+/* Section-Socials */
+
+.socials{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.socials #one, #two, #three, #four, #five{
+    height: 35px;
+    width: auto;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.socials #one:hover, #two:hover, #three:hover, #four:hover, #five:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
